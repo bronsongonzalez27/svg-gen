@@ -1,8 +1,8 @@
 const inquire = require("inquirer");
 const test = require("jest");
-const fs = require("fs");
+// const fs = require("fs");
 // pulling information from shapes.js 
-const {Shape, Rectangle, Square, Circle} = require("./shapes.js");
+const {Shape, Rectangle, Square, Circle} = require("./LIB/shapes.js");
 
 // function prompt to ask user for input on what they would like for their logo
 
@@ -10,7 +10,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 // Importing shapes from shapes.js
-const { Shape, Rectangle, Square, Circle } = require("./shapes.js");
+
 
 // Function to generate the SVG content based on user input
 function generateSVG(data) {
@@ -41,7 +41,7 @@ function generateSVG(data) {
   }
   
 
-// Inquirer prompts
+// prompts to generate
 const questionsPrompt = [
   {
     type: "input",
