@@ -16,3 +16,4 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## functional video
 
 ## example image
+![image](https://github.com/bronsongonzalez27/svg-gen/assets/122845938/77abb6c6-205c-4676-8bef-a6c5044c916c)
